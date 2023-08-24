@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header';
+import PlayerOne from './Components/PlayerOne';
+import PlayerTwo from './Components/PlayerTwo';
+import Button from './Components/Button';
 
 function App() {
   const [playerOne, setPlayerOne] = useState(30);
@@ -12,6 +15,9 @@ function App() {
     <>
       <div>
         <Header />
+        <PlayerOne />
+        <PlayerTwo />
+        <Button />
       </div>
     </>
   )
